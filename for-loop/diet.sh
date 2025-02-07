@@ -61,7 +61,12 @@ main(){
    echo "|    Energy-giving: $rand_line2           "
    echo "|    Protective: $rand_line3              "
    echo "|________________________________________ "
+   
 
+   for Banana in $rand_line3
+   do 
+      echo "We got Banana in Protective Food."
+   done  
    # Farewell
    bye
 }
